@@ -1,26 +1,33 @@
-<p align="left">
-    中文&nbsp ｜ &nbsp<a href="README.md">English</a>&nbsp
-</p>
+[English](README.md) | 中文
 
-<p align="left">
-    <a href="https://discord.gg/6dn7Sa3a"><img src="https://dcbadge.vercel.app/api/server/DYn29wFk9z?style=flat" alt="Discord Follow"></a>
-</p>
+[![GitHub stars](https://img.shields.io/github/stars/mannaandpoem/OpenManus?style=social)](https://github.com/gregpr07/browser-use/stargazers) &ensp;
+[![Twitter Follow](https://img.shields.io/twitter/follow/openmanus?style=social)](https://twitter.com/openmanus) &ensp;
+[![Discord Follow](https://dcbadge.vercel.app/api/server/https://discord.gg/6dn7Sa3a?style=flat)](https://discord.gg/6dn7Sa3a) &ensp;
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# OpenManus 🙋  
+# 👋 OpenManus
 
 Manus 非常棒，但 OpenManus 无需邀请码即可实现任何创意 🛫！
 
-我们来自 [@MetaGPT](https://github.com/geekan/MetaGPT) 的团队成员 [@mannaandpoem](https://github.com/mannaandpoem) [@XiangJinyu](https://github.com/XiangJinyu) [@MoshiQAQ](https://github.com/MoshiQAQ) [@didiforgithub](https://github.com/didiforgithub) 在 3 小时内完成了开发！
+我们的团队成员 [@mannaandpoem](https://github.com/mannaandpoem) [@XiangJinyu](https://github.com/XiangJinyu) [@MoshiQAQ](https://github.com/MoshiQAQ) [@didiforgithub](https://github.com/didiforgithub) https://github.com/stellaHSR
+和 [@Xinyu Zhang](https://x.com/xinyzng) 来自 [@MetaGPT](https://github.com/geekan/MetaGPT) 等组织，我们在 3
+小时内完成了原型开发并持续迭代中！
 
 这是一个简洁的实现方案，欢迎任何建议、贡献和反馈！
 
 用 OpenManus 开启你的智能体之旅吧！
 
-## 项目演示  
+我们也非常高兴地向大家介绍 [OpenManus-RL](https://github.com/OpenManus/OpenManus-RL)，这是一个专注于基于强化学习（RL，例如 GRPO）的方法来优化大语言模型（LLM）智能体的开源项目，由来自UIUC 和 OpenManus 的研究人员合作开发。
+
+## 项目演示
 
 <video src="https://private-user-images.githubusercontent.com/61239030/420168772-6dcfd0d2-9142-45d9-b74e-d10aa75073c6.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDEzMTgwNTksIm5iZiI6MTc0MTMxNzc1OSwicGF0aCI6Ii82MTIzOTAzMC80MjAxNjg3NzItNmRjZmQwZDItOTE0Mi00NWQ5LWI3NGUtZDEwYWE3NTA3M2M2Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzA3VDAzMjIzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdiZjFkNjlmYWNjMmEzOTliM2Y3M2VlYjgyNDRlZDJmOWE3NWZhZjE1MzhiZWY4YmQ3NjdkNTYwYTU5ZDA2MzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.UuHQCgWYkh0OQq9qsUWqGsUbhG3i9jcZDAMeHjLt5T4" data-canonical-src="https://private-user-images.githubusercontent.com/61239030/420168772-6dcfd0d2-9142-45d9-b74e-d10aa75073c6.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDEzMTgwNTksIm5iZiI6MTc0MTMxNzc1OSwicGF0aCI6Ii82MTIzOTAzMC80MjAxNjg3NzItNmRjZmQwZDItOTE0Mi00NWQ5LWI3NGUtZDEwYWE3NTA3M2M2Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzA3VDAzMjIzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdiZjFkNjlmYWNjMmEzOTliM2Y3M2VlYjgyNDRlZDJmOWE3NWZhZjE1MzhiZWY4YmQ3NjdkNTYwYTU5ZDA2MzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.UuHQCgWYkh0OQq9qsUWqGsUbhG3i9jcZDAMeHjLt5T4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px"></video>
 
 ## 安装指南
+
+我们提供两种安装方式。推荐使用方式二（uv），因为它能提供更快的安装速度和更好的依赖管理。
+
+### 方式一：使用 conda
 
 1. 创建新的 conda 环境：
 
@@ -40,6 +47,36 @@ cd OpenManus
 
 ```bash
 pip install -r requirements.txt
+```
+
+### 方式二：使用 uv（推荐）
+
+1. 安装 uv（一个快速的 Python 包管理器）：
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+2. 克隆仓库：
+
+```bash
+git clone https://github.com/mannaandpoem/OpenManus.git
+cd OpenManus
+```
+
+3. 创建并激活虚拟环境：
+
+```bash
+uv venv
+source .venv/bin/activate  # Unix/macOS 系统
+# Windows 系统使用：
+# .venv\Scripts\activate
+```
+
+4. 安装依赖：
+
+```bash
+uv pip install -r requirements.txt
 ```
 
 ## 配置说明
@@ -71,6 +108,7 @@ api_key = "sk-..."  # 替换为真实 API 密钥
 ```
 
 ## 快速启动
+
 一行命令运行 OpenManus：
 
 ```bash
@@ -86,24 +124,29 @@ python run_flow.py
 ```
 
 ## 贡献指南
+
 我们欢迎任何友好的建议和有价值的贡献！可以直接创建 issue 或提交 pull request。
 
-或通过📧邮件联系 @mannaandpoem：mannaandpoem@gmail.com
+或通过 📧 邮件联系 @mannaandpoem：mannaandpoem@gmail.com
 
 ## 发展路线
-- [ ] 更优的规划系统
-- [ ] 实时演示功能
-- [ ] 运行回放
-- [ ] 强化学习微调模型
-- [ ] 全面的性能基准测试
 
-<!-- ## 交流群
-加入我们的交流群，与其他开发者分享经验！
+在全面收集了社区成员的反馈后，我们决定采用 3-4 天为周期的迭代模式，逐步实现大家期待的功能。
+
+- [ ] 增强 Planning 能力，优化任务分解和执行逻辑
+- [ ] 引入标准化评测，基于 GAIA 和 TAU-Bench，持续评估并优化性能
+- [ ] 拓展模型适配，优化低成本应用场景
+- [ ] 实现容器化部署，简化安装和使用流程
+- [ ] 丰富示例库，增加更多实用案例，包含成功和失败示例的分析
+- [ ] 前后端开发，提供用户体验
+
+## 交流群
+
+加入我们的飞书交流群，与其他开发者分享经验！
 
 <div align="center" style="display: flex; gap: 20px;">
-    <img src="assets/community_group_9.jpg" alt="OpenManus 交流群9" width="300" />
-    <img src="assets/community_group_10.jpg" alt="OpenManus 交流群10" width="300" />
-</div> -->
+    <img src="assets/community_group.jpg" alt="OpenManus 交流群" width="300" />
+</div>
 
 ## Star 数量
 
@@ -111,6 +154,7 @@ python run_flow.py
 
 ## 致谢
 
-特别感谢 [anthropic-computer-use](https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo) 和 [broswer-use](https://github.com/browser-use/browser-use) 为本项目提供的基础支持！
+特别感谢 [anthropic-computer-use](https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo)
+和 [browser-use](https://github.com/browser-use/browser-use) 为本项目提供的基础支持！
 
 OpenManus 由 MetaGPT 社区的贡献者共同构建，感谢这个充满活力的智能体开发者社区！
